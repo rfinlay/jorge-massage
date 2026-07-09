@@ -63,6 +63,8 @@
   @media(min-width:820px){.two{grid-template-columns:1fr 1fr; gap:60px;}}
   .about p{color:var(--muted); font-size:18px;}
   .about .stat{display:inline-block; font-family:"Fraunces",serif; color:var(--terra-d); font-weight:600;}
+  .creds{display:flex; flex-wrap:wrap; gap:8px; margin-top:22px;}
+  .creds span{background:#eef1e9; border:1px solid var(--line); color:var(--forest); font-size:13px; font-weight:600; padding:6px 12px; border-radius:30px;}
   .portrait{background:linear-gradient(150deg,#dfe6dc,#eef1e9); border:1px solid var(--line); border-radius:18px; aspect-ratio:4/5; display:grid; place-items:center; color:var(--sage); font-size:13px; letter-spacing:2px; text-transform:uppercase; text-align:center; padding:20px;}
 
   .quoteband{background:var(--forest-d); color:#eef1e9; text-align:center;}
@@ -119,7 +121,7 @@
       <h1 class="title serif">Medical massage that gets you <em>moving again.</em></h1>
       <p class="lede">Therapeutic bodywork in El Paso with Jorge Del Pozo, LMT. A functional-anatomy approach that treats how your body's structures work together, to relieve pain, recover from injury, and restore real function.</p>
       <div class="cta-row">
-        <a class="btn primary" href="#contact">Book a session</a>
+        <a class="btn primary" href="https://www.jorgemassage.com/book-online" target="_blank" rel="noopener">Book online</a>
         <a class="btn ghost" href="#services">See services</a>
       </div>
     </div>
@@ -138,8 +140,11 @@
     <div>
       <p class="eyebrow">About Jorge</p>
       <h2 class="head serif">A therapist, not a spa menu.</h2>
-      <p>Jorge Del Pozo is a licensed massage therapist with <span class="stat">9+ years</span> of hands-on experience in medical and therapeutic bodywork. His approach is built on functional anatomy, understanding your body by its structures and how they interact, so each session works to restore them to function as a unit.</p>
-      <p>That means no rushed, one-size-fits-all routine. Every session is targeted, informed, and focused on getting you real, lasting relief.</p>
+      <p>Jorge Del Pozo has been a licensed massage therapist since <span class="stat">2016</span>, accredited by the AMTA (American Massage Therapy Association), and since 2021 he has taught massage therapy as an instructor at El Paso Community College. His work is grounded in functional anatomy, treating your body by its structures and how they interact, so each session restores them to work as a unit.</p>
+      <p style="font-style:italic;">"Massage therapy isn't just a job for me, it's a passion. It's not only about relieving pain, but connecting with people, understanding their needs, and helping them reach their health goals." <span class="stat">&mdash; Jorge</span></p>
+      <div class="creds">
+        <span>LMT since 2016</span><span>AMTA-accredited</span><span>EPCC instructor</span><span>Canine &amp; equine therapy</span>
+      </div>
     </div>
     <div class="portrait">Photo of Jorge / studio here</div>
   </div>
@@ -199,6 +204,7 @@
         <a class="big serif" href="tel:+19154918360">(915) 491-8360</a>
         <p>7012 Majorca Ct. &middot; El Paso, TX 79912</p>
         <p>By appointment</p>
+        <a class="btn primary" href="https://www.jorgemassage.com/book-online" target="_blank" rel="noopener" style="margin-top:12px;">Book online</a>
       </div>
       <form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
         <div><label for="name">Name</label><input id="name" name="name" required></div>
