@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Jorge Massage Therapy — El Paso | Relax, Recover, Restore</title>
+<meta name="description" content="Licensed therapeutic and relaxation massage in El Paso. Deep tissue, Swedish, sports recovery, hot stone. Book your session today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#f6f2ea; --card:#fffdf9; --ink:#2b3a32; --muted:#5f6f64;
+    --sage:#6f8d78; --forest:#37503f; --forest-d:#2b3d33; --terra:#c07a54; --terra-d:#a5613f;
+    --line:#e4ddcf;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%; overflow-x:hidden; scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--cream); color:var(--ink);
+    font-family:"Source Sans 3",-apple-system,system-ui,sans-serif;
+    font-size:17px; line-height:1.6; width:100%; max-width:100%;
+    overflow-x:hidden; overflow-wrap:break-word;
+  }
+  h1,h2,h3,p,li,.eyebrow,blockquote{overflow-wrap:break-word;}
+  .serif{font-family:"Fraunces",Georgia,serif;}
+  a{color:var(--terra-d);}
+  .wrap{max-width:1040px; margin:0 auto; padding:0 24px;}
+  .eyebrow{font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--sage); font-weight:600; margin:0 0 12px;}
+  .btn{display:inline-block; font-weight:600; padding:15px 32px; border-radius:40px; text-decoration:none; font-size:16px; transition:background .2s,transform .2s;}
+  .btn.primary{background:var(--terra); color:#fff;}
+  .btn.primary:hover{background:var(--terra-d);}
+  .btn.ghost{background:transparent; color:var(--forest); border:1.5px solid var(--sage);}
+  .btn.ghost:hover{background:rgba(111,141,120,.12);}
+
+  /* HERO */
+  header.hero{
+    position:relative; background:
+      radial-gradient(90% 70% at 85% 0%, rgba(111,141,120,.28) 0%, rgba(246,242,234,0) 60%),
+      linear-gradient(180deg,#eef1e9 0%, var(--cream) 70%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-inner{display:grid; grid-template-columns:1fr; gap:34px; align-items:center; padding:70px 0 64px;}
+  @media(min-width:860px){.hero-inner{grid-template-columns:1.1fr .9fr; gap:56px; padding:96px 0 84px;}}
+  .brandrow{display:flex; align-items:center; gap:12px; margin-bottom:26px;}
+  .leaf{width:44px; height:44px; border-radius:50%; background:var(--forest); display:grid; place-items:center;}
+  .leaf svg{width:24px; height:24px;}
+  .brandrow span{font-weight:600; letter-spacing:1px; color:var(--forest); font-size:15px;}
+  h1.title{font-family:"Fraunces",serif; font-weight:600; font-size:clamp(38px,7.5vw,64px); line-height:1.03; margin:0 0 16px; color:var(--forest-d); letter-spacing:-.5px;}
+  h1.title em{font-style:italic; color:var(--terra-d);}
+  .hero p.lede{font-size:clamp(17px,2.4vw,21px); color:var(--muted); margin:0 0 30px; max-width:520px;}
+  .hero .cta-row{display:flex; flex-wrap:wrap; gap:14px;}
+  .hero-card{
+    background:var(--card); border:1px solid var(--line); border-radius:18px; padding:28px;
+    box-shadow:0 20px 50px rgba(43,61,51,.10);
+  }
+  .hero-card h3{font-family:"Fraunces",serif; font-weight:600; margin:0 0 4px; color:var(--forest-d); font-size:20px;}
+  .hero-card .hours{margin:14px 0 0; border-top:1px solid var(--line); padding-top:14px;}
+  .hero-card .hours div{display:flex; justify-content:space-between; padding:5px 0; color:var(--muted); font-size:15px;}
+  .hero-card .ph{display:inline-block; margin-top:16px; font-family:"Fraunces",serif; font-size:22px; color:var(--terra-d); text-decoration:none;}
+
+  /* SECTIONS */
+  section{padding:74px 0; border-bottom:1px solid var(--line);}
+  h2.head{font-family:"Fraunces",serif; font-weight:600; font-size:clamp(28px,5vw,44px); line-height:1.08; margin:4px 0 16px; color:var(--forest-d);}
+  .two{display:grid; grid-template-columns:1fr; gap:40px; align-items:center;}
+  @media(min-width:820px){.two{grid-template-columns:1fr 1fr; gap:60px;}}
+  .about p{color:var(--muted); font-size:18px;}
+  .portrait{background:linear-gradient(150deg,#dfe6dc,#eef1e9); border:1px solid var(--line); border-radius:18px; aspect-ratio:4/5; display:grid; place-items:center; color:var(--sage); font-size:13px; letter-spacing:2px; text-transform:uppercase; text-align:center; padding:20px;}
+
+  /* SERVICES */
+  .services{background:#eef1e9;}
+  .svc-grid{display:grid; grid-template-columns:1fr; gap:16px; margin-top:20px;}
+  @media(min-width:640px){.svc-grid{grid-template-columns:1fr 1fr;}}
+  @media(min-width:980px){.svc-grid{grid-template-columns:1fr 1fr 1fr;}}
+  .svc{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:26px; transition:transform .2s, box-shadow .2s;}
+  .svc:hover{transform:translateY(-3px); box-shadow:0 14px 34px rgba(43,61,51,.10);}
+  .svc h3{font-family:"Fraunces",serif; font-weight:600; font-size:21px; margin:0 0 6px; color:var(--forest-d);}
+  .svc p{margin:0 0 12px; color:var(--muted); font-size:15.5px;}
+  .svc .price{font-weight:600; color:var(--terra-d);}
+
+  /* BENEFITS */
+  .benefits ul{list-style:none; padding:0; margin:18px 0 0; display:grid; grid-template-columns:1fr; gap:14px;}
+  @media(min-width:700px){.benefits ul{grid-template-columns:1fr 1fr;}}
+  .benefits li{display:flex; gap:12px; align-items:flex-start; color:var(--muted); font-size:17px;}
+  .benefits li b{color:var(--ink);}
+  .dot{min-width:9px; height:9px; border-radius:50%; background:var(--terra); margin-top:9px;}
+
+  /* CTA / CONTACT */
+  .contact{background:var(--forest-d); color:#eef1e9;}
+  .contact .eyebrow{color:#a9c3b1;}
+  .contact h2{color:#fff;}
+  .contact p{color:#cdd8cf;}
+  .contact-grid{display:grid; grid-template-columns:1fr; gap:34px; margin-top:20px;}
+  @media(min-width:820px){.contact-grid{grid-template-columns:1fr 1fr; gap:56px;}}
+  form{display:grid; gap:14px;}
+  label{display:block; font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#a9c3b1; margin-bottom:6px;}
+  input,select,textarea{width:100%; background:#33473b; border:1px solid #47604f; color:#f3f6f1; padding:12px 14px; border-radius:8px; font-family:inherit; font-size:16px;}
+  input::placeholder,textarea::placeholder{color:#8fa596;}
+  input:focus,select:focus,textarea:focus{outline:none; border-color:var(--terra); box-shadow:0 0 0 2px rgba(192,122,84,.3);}
+  textarea{min-height:110px; resize:vertical;}
+  .book-info .big{font-family:"Fraunces",serif; font-size:clamp(26px,4vw,34px); color:#fff; text-decoration:none; display:inline-block; margin:4px 0 10px;}
+  .book-info p{margin:6px 0;}
+  .form-note{font-size:13px; color:#a9c3b1; font-style:italic;}
+
+  footer{background:#22302a; text-align:center; padding:40px 24px; color:#a9c3b1; font-size:14px;}
+  footer .fb{font-family:"Fraunces",serif; color:#fff; font-size:20px; font-weight:600; display:block; margin-bottom:6px;}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;} *{transition:none!important;}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="brandrow">
+        <span class="leaf"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21c0-6 4-10 8-11-1 7-4 11-8 11z" fill="#c07a54"/><path d="M12 21C7 21 4 15 4 8c5 1 8 6 8 13z" fill="#a9c3b1"/></svg></span>
+        <span>Jorge Massage Therapy &middot; El Paso</span>
+      </div>
+      <h1 class="title serif">Relax, recover,<em> restore.</em></h1>
+      <p class="lede">Licensed therapeutic and relaxation massage in El Paso. Real hands-on care to ease pain, melt tension, and help your body feel like yours again.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#contact">Book a session</a>
+        <a class="btn ghost" href="#services">See services</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3 class="serif">Book your visit</h3>
+      <p style="margin:6px 0 0; color:var(--muted); font-size:15px;">By appointment in El Paso. Same-week openings are common.</p>
+      <div class="hours">
+        <div><span>Mon &ndash; Fri</span><span>9:00 AM &ndash; 7:00 PM</span></div>
+        <div><span>Saturday</span><span>9:00 AM &ndash; 3:00 PM</span></div>
+        <div><span>Sunday</span><span>Closed</span></div>
+      </div>
+      <a class="ph" href="tel:+19155550100">(915) 555-0100</a>
+    </div>
+  </div>
+</header>
+
+<section class="about">
+  <div class="wrap two">
+    <div>
+      <p class="eyebrow">About Jorge</p>
+      <h2 class="head serif">Care that actually listens to your body.</h2>
+      <p>Jorge is a licensed massage therapist in El Paso who treats every session as its own. No rushed, one-size-fits-all routine, just focused, skilled hands that find the tension you're carrying and work it loose.</p>
+      <p>Whether you're recovering from an injury, grinding through desk-job knots, or simply overdue for an hour that's yours, you'll leave looser, lighter, and genuinely cared for.</p>
+    </div>
+    <div class="portrait">Photo of Jorge / studio here</div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <p class="eyebrow">What Jorge offers</p>
+    <h2 class="head serif">Massage, tailored to you.</h2>
+    <div class="svc-grid">
+      <div class="svc"><h3>Swedish / Relaxation</h3><p>Long, flowing strokes to calm the nervous system and melt everyday stress.</p><span class="price">from $70 &middot; 60 min</span></div>
+      <div class="svc"><h3>Deep Tissue</h3><p>Firm, targeted pressure that reaches the deeper layers where chronic tension hides.</p><span class="price">from $85 &middot; 60 min</span></div>
+      <div class="svc"><h3>Sports & Recovery</h3><p>For active bodies, before or after training, to boost mobility and speed recovery.</p><span class="price">from $90 &middot; 60 min</span></div>
+      <div class="svc"><h3>Trigger Point</h3><p>Precise work on specific knots and pain points to release referred pain.</p><span class="price">from $85 &middot; 60 min</span></div>
+      <div class="svc"><h3>Hot Stone</h3><p>Warm stones plus skilled hands for deep, enveloping muscle release.</p><span class="price">from $95 &middot; 75 min</span></div>
+      <div class="svc"><h3>Prenatal</h3><p>Gentle, safe, supportive massage for expecting moms (with provider clearance).</p><span class="price">from $80 &middot; 60 min</span></div>
+    </div>
+    <p style="margin-top:16px; color:var(--muted); font-style:italic; font-size:15px;">Sample services and pricing, easily updated to Jorge's real menu.</p>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="wrap">
+    <p class="eyebrow">Why it's worth it</p>
+    <h2 class="head serif">More than an hour off.</h2>
+    <ul>
+      <li><span class="dot"></span><span><b>Less pain, more motion.</b> Loosen tight muscles and stiff joints that nag you all day.</span></li>
+      <li><span class="dot"></span><span><b>Real stress relief.</b> Lower tension, calmer mind, better sleep.</span></li>
+      <li><span class="dot"></span><span><b>Faster recovery.</b> Help sore, overworked muscles bounce back.</span></li>
+      <li><span class="dot"></span><span><b>Better posture.</b> Undo the damage of desks, phones, and long drives.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow">Book your session</p>
+    <h2 class="head serif">Your body will thank you.</h2>
+    <div class="contact-grid">
+      <div class="book-info">
+        <p>The fastest way to book is a quick call or text. Tell Jorge what's bothering you and he'll take care of the rest.</p>
+        <a class="big serif" href="tel:+19155550100">(915) 555-0100</a>
+        <p>Serving El Paso &middot; by appointment</p>
+        <p>hello@jorgemassage.com</p>
+      </div>
+      <form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
+        <div><label for="name">Name</label><input id="name" name="name" required></div>
+        <div><label for="phone">Phone</label><input id="phone" name="phone" inputmode="tel" required></div>
+        <div><label for="svc">What are you after?</label>
+          <select id="svc" name="service">
+            <option>Relaxation / Swedish</option><option>Deep tissue</option><option>Sports & recovery</option>
+            <option>Pain / trigger point</option><option>Not sure, help me pick</option>
+          </select>
+        </div>
+        <div><label for="msg">Anything Jorge should know?</label><textarea id="msg" name="message" placeholder="Sore lower back, training for a race, first massage..."></textarea></div>
+        <button class="btn primary" type="submit" style="justify-self:start;">Request appointment</button>
+        <p class="form-note">Placeholder form, connect to a real inbox before launch.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="fb serif">Jorge Massage Therapy</span>
+    Licensed massage therapy &middot; El Paso, TX &middot; (915) 555-0100 &middot; hello@jorgemassage.com
+  </div>
+</footer>
+
+</body>
+</html>
